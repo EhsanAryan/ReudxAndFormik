@@ -1,0 +1,114 @@
+.myForm {
+    background-color: rgba(255, 255, 255 , 0.4);
+    box-shadow: 0px 0px 10px black;
+}
+
+.myForm , .myForm * {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 920px) {
+    .myForm {
+        width: 75% !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .myForm {
+        width: 100% !important;
+    }
+
+    .myForm-parent {
+        padding: 0px 12px;
+    }
+}
+
+
+
+
+
+.custom-selectbox {
+    border-radius: 1rem;
+    min-width: 200px;
+    min-height: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.custom-container {
+    position: relative;
+}
+
+.custom-datepicker {
+    margin-left: 10px;
+    border-radius: 1rem;
+    border: none;
+    width: 240px;
+    height: 40px;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.check-icon {
+    font-size: 1.5rem;
+    color: green;
+    position: relative;
+    left: 17px;
+    cursor: pointer;
+}
+
+.selectboxes-parent {
+    width: 240px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 109px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0px 10px;
+}
+
+.selectbox-parent {
+    padding: 0px !important;
+}
+
+.date-selectbox {
+    border: none !important;
+    appearance: none;
+    width: 100%;
+    text-align: center; 
+    background-color: transparent !important;
+}
+
+
+.file-view {
+    width: 300px;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    border: none !important;
+    background-color: white !important;
+    text-overflow: ellipsis;
+}
+
+.main-file-field {
+    position: absolute;
+    left: 75px;
+    top: 0;
+    width: 300px;
+    height: 40px;
+    border-radius: 1rem;
+    opacity: 0;
+}
+
+.show-error {
+    width: 375px;
+}

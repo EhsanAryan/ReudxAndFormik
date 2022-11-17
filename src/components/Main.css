@@ -1,0 +1,7 @@
+.div-parent {
+    position: absolute;
+    top: 56px;;
+    width: 100%;
+    min-height: 100%;
+    background: linear-gradient(45deg , rgb(3, 158, 73) , teal , rgb(1, 232, 205));
+}

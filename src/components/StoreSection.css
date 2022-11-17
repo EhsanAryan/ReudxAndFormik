@@ -1,0 +1,38 @@
+.parent-div {
+    width: 75%;
+    margin: 50px auto;
+    background-color: rgb(5, 158, 158);
+    box-shadow: 0px 0px 15px black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+:is(.food-section , .fruit-section) {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+:is(.food-section , .fruit-section) div {
+    font-size: 20px;
+}
+
+div.input-group {
+    margin-bottom: 10px;
+}
+
+:is(.buy-food-section , .buy-fruit-section) button {
+    font-size: 20px;
+    padding: 5px 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input.form-control[type="number"] {
+    width: 130px;
+}

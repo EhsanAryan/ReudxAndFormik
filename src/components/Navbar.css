@@ -1,0 +1,18 @@
+.no-link {
+    text-decoration: none;
+    color: white;
+}
+
+.no-link:hover {
+    color: pink;
+    text-shadow: 0px 0px 10px white;
+}
+
+.no-link:active {
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+.navbar-space {
+    height: 56px;
+}
