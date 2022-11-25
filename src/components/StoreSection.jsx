@@ -51,7 +51,7 @@ const StoreSection = () => {
                     <div className="fruit-div">Banana : {banana}</div>
                     <div className="fruit-div">Mango : {mango}</div>
                 </div>
-                <diy className="buy-fruit-section">
+                <div className="buy-fruit-section">
                     <div className="input-group">
                         <button type="button" className="btn btn-dark" 
                         onClick={() => dispatch({type: "buy-apple" , payload : itemsCount.apple})}>
@@ -76,7 +76,7 @@ const StoreSection = () => {
                         <input type="number" min="1" className="form-control" placeholder="amount"
                         value={itemsCount.mango} onChange={(event) => setItemsCount({...itemsCount , mango : event.target.value})} />
                     </div>
-                </diy>
+                </div>
             </div>
         </>
     );
