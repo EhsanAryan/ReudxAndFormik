@@ -52,13 +52,6 @@
     height: 40px;
     padding: 5px 10px;
     background-color: white;
-}
-
-.check-icon {
-    font-size: 1.5rem;
-    color: green;
-    position: relative;
-    left: 17px;
     cursor: pointer;
 }
 
@@ -86,7 +79,17 @@
     width: 100%;
     text-align: center; 
     background-color: transparent !important;
+    cursor: pointer;
 }
+
+.check-icon {
+    font-size: 1.5rem;
+    color: green;
+    position: relative;
+    left: 17px;
+    cursor: pointer;
+}
+
 
 
 .file-view {
@@ -107,6 +110,7 @@
     height: 40px;
     border-radius: 1rem;
     opacity: 0;
+    cursor: pointer;
 }
 
 .show-error {

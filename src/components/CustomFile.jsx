@@ -1,4 +1,5 @@
 import React from "react";
+import "./MyForm.css";
 
 const CustomFile = (props) => {
     const {name , formik , label , placeholder} = props;

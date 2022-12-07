@@ -52,7 +52,7 @@ const CustomDatePicker = (props) => {
                     <select className="date-selectbox" value={year} onChange={(event) => setYear(event.target.value)}>
                         {allYears.map(y => {
                             return (
-                                <option key={`key_${y}`} value={y}>{y}</option>
+                                <option key={`year_${y}`} value={y}>{y}</option>
                             )
                         })}
                     </select>
@@ -61,7 +61,7 @@ const CustomDatePicker = (props) => {
                     <select className="date-selectbox" value={month} onChange={(event) => setMonth(event.target.value)}>
                         {months.map(m => {
                             return (
-                                <option key={`key_${m}`} value={m}>{m}</option>
+                                <option key={`month_${m}`} value={m}>{m}</option>
                             )
                         })}
                     </select>
@@ -70,7 +70,7 @@ const CustomDatePicker = (props) => {
                     <select className="date-selectbox" value={day} onChange={(event) => setDay(event.target.value)}>
                         {days.map(d => {
                             return (
-                                <option key={`key_${d}`} value={d}>{d}</option>
+                                <option key={`day_${d}`} value={d}>{d}</option>
                             )
                         })}
                     </select>

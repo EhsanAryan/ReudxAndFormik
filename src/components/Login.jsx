@@ -74,7 +74,7 @@ const Login = () => {
                                     />
                                 </div>
                                 <div className="mt-4 w-100">
-                                    <a><Link to="/form">I have not registered yet.</Link></a>
+                                    <Link to="/form">I have not registered yet.</Link>
                                 </div>
                                 <div className="text-center mt-4 mb-2">
                                     <button type="submit" className="btn btn-success btn-lg">Submit</button>

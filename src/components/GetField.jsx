@@ -12,18 +12,14 @@ const GetField = (props) => {
 
     switch (control) {
         case "input":
-                return (
-                    <>
-                        <CustomInput {...props} />
-                    </>
-                )
+            return (
+                <CustomInput {...props} />
+            )
             break;
         
         case "textarea" :
             return (
-                <>
-                    <CustomTextarea {...props} />
-                </>
+                <CustomTextarea {...props} />
             )
             break;
         
